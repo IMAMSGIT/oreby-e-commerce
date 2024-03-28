@@ -6,6 +6,14 @@ export default {
       maxWidth: {
         container: "1604px",
       },
+      fontFamily: {
+        dmSans: ["DM Sans", "sans-serif"],
+      },
+      colors: {
+        white: "#FFFFFF",
+        primary: "#262626",
+        secondary: "#767676",
+      },
     },
     plugins: [],
   },
