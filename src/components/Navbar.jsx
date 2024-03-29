@@ -13,7 +13,18 @@ const Navbar = () => {
     setMenu(!menu);
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    function navBarMenu() {
+      let windowSize = window.innerWidth;
+      if (windowSize < 1024) {
+        setMenu(false);
+      } else {
+        setMenu(true);
+      }
+    }
+    navBarMenu();
+    window.addEventListener("resize", navBarMenu);
+  }, []);
   return (
     <nav className="py-8 bg-white ">
       <Container>
