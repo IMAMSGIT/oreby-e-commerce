@@ -13,6 +13,7 @@ export default {
         white: "#FFFFFF",
         primary: "#262626",
         secondary: "#767676",
+        headerbg: "#F5F5F3",
       },
     },
     plugins: [],

@@ -26,7 +26,7 @@ const Navbar = () => {
     window.addEventListener("resize", navBarMenu);
   }, []);
   return (
-    <nav className="py-8 bg-white ">
+    <nav className="relative z-50 py-8 bg-white">
       <Container>
         <Flex className="items-center justify-between">
           <Image source={"images/logo.png"} alter={"Logo"} />
