@@ -5,7 +5,7 @@ import Flex from "./Flex";
 
 const Offer = () => {
   return (
-    <section className="lg:mt-[140px] mt-[40px]">
+    <section className="lg:mt-[140px] mt-[10px]">
       <Container>
         <Flex className="flex-wrap gap-10 lg:flex-nowrap">
           <Image source="images/first_ad.png" alt="1st ad"></Image>
