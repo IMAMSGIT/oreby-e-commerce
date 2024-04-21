@@ -49,8 +49,11 @@ const Navbar = () => {
                 </Link>
               </ListItem>
               <ListItem className="mt-4 ">
-                <Link className="text-sm font-normal text-white duration-100 hover:font-bold lg:text-secondary lg:hover:text-primary">
-                  Shop
+                <Link
+                  to="/products"
+                  className="text-sm font-normal text-white duration-100 hover:font-bold lg:text-secondary lg:hover:text-primary"
+                >
+                  Products
                 </Link>
               </ListItem>
               <ListItem className="mt-4 ">

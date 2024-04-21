@@ -40,7 +40,7 @@ const Header = () => {
         setCartModal(false);
       }
     });
-  }, []);
+  }, [categoryModal]);
 
   return (
     <header className="py-4 bg-headerbg">

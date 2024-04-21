@@ -140,15 +140,14 @@ const Banner = () => {
   return (
     <div>
       <Slider {...settings}>
-        <div>
-          <Image source="images/banner.png" alt="Banner"></Image>
+        <Image source="images/banner.png" alt="Banner"></Image>
+        <Image source="images/banner.png" alt="Banner"></Image>
+        <Image source="images/banner.png" alt="Banner"></Image>
+
+        {/* <div>
         </div>
         <div>
-          <Image source="images/banner.png" alt="Banner"></Image>
-        </div>
-        <div>
-          <Image source="images/banner.png" alt="Banner"></Image>
-        </div>
+        </div> */}
       </Slider>
     </div>
   );
