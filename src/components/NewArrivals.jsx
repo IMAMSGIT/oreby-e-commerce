@@ -47,7 +47,6 @@ const NewArrivals = () => {
           background: "#979797",
           borderRadius: "50%",
           display: "block",
-          // display: "flex",
           height: "64px",
           justifyContent: "center",
           right: "0%",

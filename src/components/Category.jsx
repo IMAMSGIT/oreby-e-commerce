@@ -7,9 +7,9 @@ import { useState } from "react";
 import { FaMinusCircle } from "react-icons/fa";
 
 const Category = ({ categoryName, subCategoryShow }) => {
-  let [subCategory, setsubCategory] = useState(false);
+  let [subCategory, setSubCategory] = useState(false);
   return (
-    <List onClick={() => setsubCategory(!subCategory)}>
+    <List onClick={() => setSubCategory(!subCategory)}>
       <ListItem className="relative border-b border-[#F0F0F0] py-[19px] items-center justify-between text-base text-secondary leading-[30px] font-normal">
         {categoryName}
         {subCategory ? (
@@ -18,12 +18,6 @@ const Category = ({ categoryName, subCategoryShow }) => {
           <FaPlusCircle className="absolute right-0 top-7" />
         )}
       </ListItem>
-      {/* {subCategory ? (
-        <FaMinusCircle className="absolute right-0 top-7" />
-      ) : (
-        <FaPlusCircle />
-      )} */}
-
       {subCategoryShow && <SubCategory subShow={subCategory} />}
     </List>
   );

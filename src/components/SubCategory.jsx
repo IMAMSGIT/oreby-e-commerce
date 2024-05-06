@@ -6,7 +6,7 @@ const SubCategory = ({ subShow }) => {
   return (
     <div>
       {subShow && (
-        <>
+        <List>
           <List className="ml-5  py-[10px]">
             <ListItem className="text-base duration-700 text-secondary leading-[30px] font-normal">
               Sub Category One
@@ -14,15 +14,15 @@ const SubCategory = ({ subShow }) => {
           </List>
           <List className="ml-5  py-[10px]">
             <ListItem className="text-base duration-700 text-secondary leading-[30px] font-normal">
-              Sub Category One
+              Sub Category Two
             </ListItem>
           </List>
           <List className="ml-5  py-[10px]">
             <ListItem className="text-base duration-700 text-secondary leading-[30px] font-normal">
-              Sub Category One
+              Sub Category Three
             </ListItem>
           </List>
-        </>
+        </List>
       )}
     </div>
   );
